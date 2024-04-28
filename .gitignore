@@ -2,7 +2,7 @@
 .nix-gems
 .bundle
 result
-data/*
+data/*.json
 static/options-release-23.11.json
 static/options-release-unstable.json
 .hugo_build.lock
