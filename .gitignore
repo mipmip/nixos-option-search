@@ -1,0 +1,8 @@
+.temp.html
+.nix-gems
+.bundle
+result
+data/*
+static/options-release-23.11.json
+static/options-release-unstable.json
+.hugo_build.lock
