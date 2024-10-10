@@ -1,14 +1,6 @@
-# Home Manager Options Search
+# NixOS Options Search
 
-## Home Manager Options Search has moved
-
-The new location is <a href="https://home-manager-options.extranix.com/">HOME-MANAGER-OPTIONS.EXTRANIX.COM</a>
-
-## Please update your bookmarks
-
-Find [home manager](https://github.com/nix-community/home-manager) options quickly.
-
-![](static/images/homemanageroptionsearch.gif)
+WIP
 
 ## Contribute
 
