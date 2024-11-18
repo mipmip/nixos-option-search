@@ -11,6 +11,8 @@ jobs:
     steps:
 
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
@@ -20,10 +22,10 @@ jobs:
           RELEASE: unstable
         run: ./scripts/build_options.sh
 
-      - name: extract-options-release-23.11 (stable)
-        env:
-          RELEASE: "23.11"
-        run: ./scripts/build_options.sh
+      #      - name: extract-options-release-23.11 (stable)
+      #        env:
+      #          RELEASE: "23.11"
+      #        run: ./scripts/build_options.sh
 
       - name: Build Hugo
         run: nix run nixpkgs#hugo -- --minify
